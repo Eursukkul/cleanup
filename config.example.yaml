@@ -1,0 +1,7 @@
+# Copy to config.yaml and replace the directory with your target folder.
+# Windows example: 'C:\Logs'
+directories:
+  - /path/to/folder
+retention_months: 3
+# Set false to delete matched files. Preview with true first.
+dry_run: true
